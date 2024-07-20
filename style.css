@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  gap: 1rem;
+}
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
